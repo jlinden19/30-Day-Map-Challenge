@@ -1,7 +1,5 @@
 if(!require(pacman)){install.packages("pacman");library(pacman)}
-p_load(tidyverse,tidycensus,dplyr,tidyr,data.table,janitor,stringr,sf,tigris,mapboxapi,openxlsx,censusapi,tidytransit,gtfsio,
-       RSocrata,pak,mapview,ExcelFunctionsR,reshape2,spatialEco,crsuggest,osmdata,raster,sp,lehdr,purrr,mapdeck,
-       devtools,hudr,crsuggest,arcgislayers,h3,mapgl,rmarkdown,bslib)
+p_load(tidyverse,tidycensus,dplyr,sf,tigris,lehdr,h3,mapgl)
 
 # get jobs from LEHD ----
 
